@@ -7,6 +7,16 @@ ensuring that resources are served with the correct content-type and are
 accessible, if needed, even cross-domain.
 
 
+## TL:DR
+1. cp templates/example.com.webp.nuxt.conf actual-hostname.conf    //use what you need
+2. sed -i 's/example.com/actual-hostname/g' actual-hostname.conf
+3. certbot  
+4. select given certs and pass in your template
+5. then uncomment all lines (remove all #)
+6. ???
+7. profit!
+
+
 ## Getting Started
 
 Using the Nginx server configs repo directly has a few required steps to be able to work.
