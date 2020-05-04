@@ -11,10 +11,11 @@ accessible, if needed, even cross-domain.
 1. cp templates/example.com.webp.nuxt.conf actual-hostname.conf    //use what you need
 2. sed -i 's/example.com/actual-hostname/g' actual-hostname.conf
 3. certbot  
-4. select given certs and pass in your template
-5. then uncomment all lines (remove all #)
-6. ???
-7. profit!
+4. select only new domains (ex. www.actual-hostname actual-hostname)
+5. select given certs and pass in your template
+6. then uncomment all lines (remove all #)
+7. ???
+8. profit!
 
 
 ## Getting Started
