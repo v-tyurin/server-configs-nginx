@@ -14,8 +14,9 @@ accessible, if needed, even cross-domain.
 4. select only new domains (ex. www.actual-hostname actual-hostname)
 5. select given certs and pass in your template
 6. then uncomment all lines (remove all #)
-7. ???
-8. profit!
+7. restart nginx
+8. ???
+9. profit!
 
 
 ## Getting Started
